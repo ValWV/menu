@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang=''>
 <head>
@@ -7,36 +8,33 @@
    <link rel="stylesheet" href="styles.css">
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="script.js"></script>
-
    <title>CSS MenuMaker</title>
 </head>
 <body>
-<style>
-</style>
-<div id="cssmenu" class=""><div id="menu-button">Menu</div>
-  <ul style="display: block;">
-     <li><a href="#" target="_blank"><i class="fa fa-fw fa-home"></i> Главная</a></li>
-     <li class="has-sub"><span class="submenu-button"></span><a href="#"><i class="fa fa-fw fa-bars"></i> Недвижимость</a>
-        <ul style="display: block;">
-           <li class="has-sub"><span class="submenu-button"></span><a href="#">Menu 1</a>
-              <ul style="display: block;">
-                 <li><a href="#">Menu 1.</a></li>
-                 <li><a href="#">Menu 1.2</a></li>
-              </ul>
-           </li>
-           <li><a href="#">Menu 2</a></li>
-        </ul>
-     </li>
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Консультации</a></li>
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Обмен квартир</a></li>   
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Переуступки</a></li>
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Услуги</a></li>
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Партнеры</a></li>
-     <li><a href="#"><i class="fa fa-fw fa-cog"></i> О компании</a></li>    
-     <li><a href="#"><i class="fa fa-fw fa-phone"></i> Контакты</a></li>
-  </ul>
-</div></div>
-        </div>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='#'>Home</a></li>
+   <li class='active'><a href='#'>Products</a>
+      <ul>
+         <li><a href='#'>Product 1</a>
+            <ul>
+               <li><a href='#'>Sub Product</a></li>
+               <li><a href='#'>Sub Product</a></li>
+            </ul>
+         </li>
+         <li><a href='#'>Product 2</a>
+            <ul>
+               <li><a href='#'>Sub Product</a></li>
+               <li><a href='#'>Sub Product</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'>About</a></li>
+   <li><a href='#'>Contact</a></li>
+</ul>
+</div>
 
 </body>
 <html>
