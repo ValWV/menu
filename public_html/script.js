@@ -66,7 +66,7 @@ $(document).ready(function(){
 $("#cssmenu").menumaker({
    title: "Menu",
    format: "multitoggle"
-});
+  });
 
 });
 })(jQuery);
